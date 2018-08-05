@@ -1,1 +1,3 @@
 # PyTorch-Project
+
+  Within this project I make use of Pandas, Numpy, Matplotlib, and PyTorch to predict stock fluctuations. There is no need for saved files to run this program, as long as you have internet connection it will extract stock values for any given ticker. In my case I used GOOGL, feel free to experiment using other tickers by changing wherever GOOGL is referenced within the program. I used iex, which restricts you to only five years worth of stats for free. This gives about 1200 data points which is not much but to help get you into recurrent neural networks this is a good proof of concept. If you want to use more datapoints for more accurate predictions, feel free to choose a different source. 
